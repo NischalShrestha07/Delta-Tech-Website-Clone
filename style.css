@@ -7,6 +7,7 @@
 }
 
 .mainContainer {
+
     margin: 0 50px;
 }
 
@@ -16,6 +17,13 @@
     display: flex;
     justify-content: space-between;
 
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
 }
 
 ul {
@@ -257,7 +265,7 @@ ul {
 }
 
 .slot3 p {
-    margin-buttom: 10px;
+    margin-bottom: 10px;
 }
 
 .slot4 {
@@ -286,4 +294,58 @@ ul {
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+.Box {
+    margin-top: 5vh;
+    /* margin-bottom: 20vh; */
+    min-height: 100vh;
+    background: grey;
+    padding: 5vw;
+    display: flex;
+}
+
+.social {
+    margin: 5vw;
+    /* gap: 30px; */
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.icons {
+    margin-top: 50px;
+    font-size: 200px;
+}
+
+.company {
+    margin: 5vw;
+    line-height: 100px;
+    font-weight: bold;
+    list-style: none;
+    font-size: 50px;
+}
+
+.services {
+    margin: 5vw;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    list-style: none;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    height: -7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+
+footer span {
+    margin-left: 10vw;
 }
